@@ -2,7 +2,7 @@ import re
 import matplotlib.pyplot as plt
 
 downSpeed=[]
-f=open("/home/antimony/Desktop/speed_logs/log","r")
+f=open("path/to/your/log/file","r")
 ll=f.readlines()
 
 def extract_val(linetoextract):
