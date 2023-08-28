@@ -1,3 +1,3 @@
-date +%w" "%D" "%H:%M >> /home/antimony/Desktop/speed_logs/log 2>> /home/antimony/Desktop/speed_logs/errors
-/home/antimony/.nvm/versions/node/v18.10.0/bin/fast --json >> /home/antimony/Desktop/speed_logs/log 2>> /home/antimony/Desktop/speed_logs/errors
+date +%w" "%D" "%H:%M >> /path/to/log/file 2>> /path/to/error_log/file
+/path/to/fast/executable --json >> /path/to/log/file 2>> /path/to/error_log/file
 sleep 10
